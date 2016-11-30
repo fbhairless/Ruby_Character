@@ -4,9 +4,9 @@ require('charcount')
 
 describe(Charcount) do
   describe("#initialize")
-  it("initializes a new instance of Charcount") do |input|
-    input = Charcount.new('hickory dickery dock')
-    expect(input.input()).to(eq('hickory dickery dock'))
+  it("initializes a new instance of Charcount") do
+    in_phrase = Charcount.new("hickory dickory dock")
+    expect(in_phrase.phrase()).to(eq("hickory dickory dock"))
   end
 
   # describe '#count' do

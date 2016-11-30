@@ -1,6 +1,9 @@
 class Charcount
 
-  define_method(:initialize) do |input_text|
-    @input_text = input_text
+  define_method(:initialize) do |phrase|
+    @phrase = phrase
+  end
+  define_method(:phrase) do
+    @phrase
   end
 end
