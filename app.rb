@@ -10,7 +10,7 @@ end
 get('/results') do
   input = self
   @phrase = params.fetch('phrase')
-  @results = charcount.count()
+  @results = count.total_chars
   erb(:results)
 
 end
