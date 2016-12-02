@@ -8,7 +8,7 @@ class Charcount
     @phrase
   end
 
- define_method(:count) do 
+ define_method(:count) do
     characters = []
     total_chars = phrase.length()
     characters = phrase.split("")
